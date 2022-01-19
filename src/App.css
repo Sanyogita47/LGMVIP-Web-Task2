@@ -1,0 +1,79 @@
+button {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  right: 40px;
+  top: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(22, 110, 4);
+  padding: 12px 10px;
+  cursor: pointer;
+}
+button:hover {
+  transition: 200ms;
+  scale: 1.03;
+  background-color: rgb(59, 211, 105);
+  border-radius: 25px;
+}
+.column1 {
+  height: 100%;
+  width: 90%;
+  float: left;
+}
+.column2 {
+  height: 100%;
+  width: 90%;
+  float: left;
+}
+.row {
+  height: 50px;
+  padding: 20px 50px 0 30px;
+}
+.box {
+  background-color: rgb(255, 202, 248) !important;
+}
+.box2 {
+  margin-left: 100px;
+}
+.avatar {
+  border-radius: 50%;
+}
+.column3 {
+  float: left !important;
+  width: 33% !important;
+}
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.profile {
+  border: 2px solid rgb(255, 165, 255);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: Arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(144, 199, 231);
+}
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.loader {
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
